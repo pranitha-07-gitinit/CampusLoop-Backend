@@ -1,0 +1,12 @@
+### Create a lost item
+POST http://localhost:8080/api/items
+Content-Type: application/json
+
+{
+  "itemName": "Black Wallet",
+  "description": "Black leather wallet",
+  "location": "College Library",
+  "date": "2026-10-05",
+  "type": "LOST",
+  "status": "ACTIVE"
+}
